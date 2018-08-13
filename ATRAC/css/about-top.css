@@ -1,0 +1,293 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+    background-color: #f4f4f4;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+.select{
+    background-color: gray;
+}
+
+.contents{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.floaLeft{
+    float:left;
+}
+
+.floaRight{
+    float: right;
+}
+
+.border{
+    border: solid black;
+}
+
+.nav-red{
+    color: red;
+}
+
+.nav-blue{
+    color: blue;
+}
+
+.weight{
+    font-weight: 700;
+}
+
+/*—  header —*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;      
+    margin: 0;
+    width: 100%;
+    margin-left: 60px;
+    border-bottom: 0.5px solid black;
+}
+
+.header-logo{
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+.header-logo img{
+    width: 40%;
+}
+
+.header-nav{
+    float: right;
+    width: 48%;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+
+.header-nav li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.header-nav li p{
+    font-size: 18px;
+}
+
+/*-- main --*/
+main{
+    background-color: white;
+    margin: 250px 120px 0;
+    background-color: white;
+}
+
+.main-wrap{
+    padding-top: 240px;
+}
+.about-title{
+    position: absolute;
+    top: 130px;
+    right: 150px;
+}
+
+.about-title h2{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Impact';
+    letter-spacing: 12px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}   
+
+.top-section p{
+    line-height: 35px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.top-img{
+    width: 100%;
+    margin-top: 250px;
+    padding: 50px 0;
+    background-color: black;
+}
+
+.top-img img{
+    width: 75%;
+}
+
+.top-bottom-section{
+    padding-top: 190px;
+}
+
+.top-bottom-section p{
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.top-nav{
+    width: 100%;
+    margin-top: -50px;
+}
+
+.top-nav img{
+    width: 50%;
+}
+
+/* section*/
+section{
+    margin-bottom: 200px;
+}
+
+.back-item{
+    text-align: center;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.back-item img{
+    width: 65%;
+}
+
+.section-title{
+    padding-top: 20px;
+    border-bottom: 0.5px solid black;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-title h3{
+    font-size: 30px;
+}
+
+.section-contents ul{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 0;
+}
+
+.section-contents li{
+    width: 30%;
+    height: 550px;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.section-contents li h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.section-contents li img{
+    width: 55%;
+}
+
+.section-contents li p{
+    padding-top: 30px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.icon-top{
+    border-bottom: solid black;
+}
+
+.icon-border{
+    border-right:  solid black;
+    border-left:  solid black;
+}
+
+/* notes */
+.section-notes{
+    padding-top: 150px;
+}
+
+.section-notes p.notes-nav01{
+    padding-bottom: 80px;
+}
+
+.section-notes p.notes-nav02{
+    padding-bottom: 60px;
+}
+
+.section-notes p.notes-nav03{
+    padding-bottom: 50px;
+}
+
+.section-notes img{
+    width: 100%;
+    height: 250px;
+}
+
+.section-notes p.notes-nav04{    
+    padding-bottom: 80px;
+    margin-top: -210px;
+    line-height: 45px;
+    color: white;
+}
+
+.section-notes p.notes-nav05{
+    color: red;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+

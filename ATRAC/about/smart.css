@@ -1,0 +1,48 @@
+@media screen and ( max-width: 640px ){
+
+	header{
+		width: 100%;
+	}
+
+	header .header-logo{
+		width: 70%;
+	}
+
+	.header-nav{
+		display: none;
+	}
+
+	main{
+	}
+
+	.top .top-img{
+		width: 60%;
+		margin-top: -50px;
+		margin-right: 90px;
+	}
+
+	.top .top-img img{
+		width: 100%;
+	}
+
+
+	.top .top-title{
+		width: 100%;
+		padding-top: 130px;
+	}
+
+	.top .top-title h2{
+		font-size: 30px;
+		text-align: center;
+	}
+
+	footer .copy{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	footer .copy p{
+		font-size: 10px;
+	}
+
+}

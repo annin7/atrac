@@ -1,0 +1,22 @@
+@media screen and (max-width: 640px){
+
+	.header-nav{
+		display: none;
+	}
+
+	.header-logo img{
+		width: 70%;
+	}
+
+	.slider{
+		width: 13%;
+	}
+
+	.slide-title h3{
+		font-size: 20px;
+	}
+
+	.nav-item{
+		margin-right: 8px;
+	}
+}

@@ -1,0 +1,73 @@
+@media screen and ( max-width: 640px ){
+
+	header{
+		width: 100%;
+	}
+
+	header .header-logo{
+		width: 70%;
+	}
+
+	.header-nav{
+		display: none;
+	}
+
+	main{
+		margin-top: 30px;
+	}
+
+	.top .top-img{
+		width: 60%;
+		margin-top: -50px;
+	}
+
+	.top .top-img img{
+		width: 100%;
+	}
+
+
+	.top .top-title{
+		width: 100%;
+		padding-top: 130px;
+	}
+
+	.top .top-title h2{
+		font-size: 30px;
+		text-align: center;
+	}
+
+	footer .copy{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	footer .copy p{
+		font-size: 10px;
+	}
+
+}
+
+/* iPad pro*/
+@media screen and ( max-width: 1024px ){
+
+	header .header-nav{
+		margin-right: 80px;
+	}
+
+	main .top-title h2{
+		font-size: 40px;
+	}
+
+	main .top-img{
+		width: 45%;
+		right: 30px;
+	}
+
+	main .more{
+		padding-top: 80px;
+	}
+
+	footer .copy{
+		margin-top: 70px;
+	}
+}

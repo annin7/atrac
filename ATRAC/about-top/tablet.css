@@ -1,0 +1,44 @@
+@media screen and (min-width: 641px) and  (max-width: 767px) {
+
+	.header-logo img{
+		width: 70%;
+	}
+
+	.header-nav{
+		display: none;
+	}
+
+	main{
+		margin: 40px 30px;
+	}
+
+	.about-title{
+		right: 90px;
+	}
+
+	.about-title h2{
+		font-size: 40px;
+	}
+
+	.top-section p{
+		font-size: 14px;
+	}
+
+	.top-bottom-section p{
+		font-size: 14px;
+	}
+
+	.section-contents li{
+		width: 45%;
+	}
+
+	.icon-top,.icon-border{
+		border: none;
+	}
+
+	.section-notes p{
+		font-size: 13px;
+	}
+
+
+}

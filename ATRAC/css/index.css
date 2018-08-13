@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+    background-color: #f4f4f4;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+.select{
+    background-color: gray;
+}
+
+.contents{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.floaLeft{
+    float:left;
+}
+
+.floaRight{
+    float: right;
+}
+
+.border{
+    border: solid black;
+}
+
+.display{
+    display: inline-flex;
+}
+
+/*—  header —*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;      
+    margin: 0;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.header-logo{
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+.header-logo img{
+    width: 40%;
+}
+
+.header-nav{
+    float: right;
+    width: 48%;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+
+.header-nav li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.header-nav li p{
+    font-size: 18px;
+}
+
+/*-- main --*/
+main{
+    background-color: white;
+    text-align: center;
+    margin: 70px 70px 0;
+    height: 660px;
+}
+
+.top-title-img{
+    float: left;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.top-title-img img{
+    width: 85%;
+}
+
+.top-main-img{
+    float: right;
+    width: 55%;
+    margin-top: -70px;
+}
+
+.top-main-img img{
+    width: 105%;
+}

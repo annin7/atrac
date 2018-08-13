@@ -1,0 +1,36 @@
+@media screen and (min-width: 641px) and (max-width: 767px){
+
+	header .header-nav{
+		display: none;
+	}
+
+	.header-logo img{
+		width: 60%;
+	}
+
+	main .top-title h2{
+		font-size: 31px;
+		padding-top: 90px;
+	}
+
+	main .top-title h2 br{
+		display: none;
+	}
+
+	main .top-img{
+		width: 45%;
+		right: 30px;
+	}
+
+	main .more{
+		padding-top: 80px;
+	}
+
+	footer .copy{
+		margin-top: 20px;
+	}
+
+	footer .copy p{
+		font-size: 10px;
+	}
+}

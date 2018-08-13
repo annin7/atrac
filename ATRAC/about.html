@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML 5 complete</title>
+    <link rel="stylesheet" type="text/css" href="about/about.css">
+
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="about/about.css" />
+    <!-- ※デフォルトのスタイル（style.css） -->
+    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 767px)" type="text/css" href="about/tablet.css" />
+    <!-- ※タブレット用のスタイル（tablet.css） -->
+    <link rel="stylesheet" media="screen and (max-width: 640px)" type="text/css" href="about/smart.css" />
+    <!-- ※スマートフォン用のスタイル（smart.css） -->
+
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="./other/ARTRACTION img_180723_0026.png">
+            </a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul id="menu">
+                    <li class="weight">
+                        <a href="about.html">
+                            <p>About</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="works.html">
+                            <p>Works</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="member.html">
+                            <p>Member</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="price.html">
+                            <p>Price</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <p>Contact</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="top">
+            <div class="top-title">
+                <h2><sapn>ARTRACTION</sapn>が目指すもの<br>情報の伝達をわかりやすく</h2>
+            </div>
+            <div class="top-img">
+                <img src="./other/ARTRACTION img_180723_0025.png">
+            </div>
+            <br style="clear: both;">
+            <div class="btn more">
+                <a href="about-top.html" class="part_line">
+                    <i class="fa fa-caret-right"></i> MORE
+                </a>           
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copy">
+            <p>@ARTRACTION</p>
+        </div>
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script> 
+    <script>
+        $(document).ready(function(){
+         $('#menu').slicknav();
+        });
+    </script>
+</body>
+</html>

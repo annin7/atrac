@@ -1,0 +1,49 @@
+@media screen and (max-width: 640px) {
+
+	.header-logo img{
+		width: 50%;
+	}
+
+	.header-nav{
+		display: none;
+	}
+
+	main{
+		margin: 60px 30px;
+	}
+
+	.about-title{
+		right: 70px;
+	}
+
+	.about-title h2{
+		font-size: 30px;
+	}
+
+	.top-section p{
+		font-size: 13px;
+	}
+
+	.top-bottom-section p{
+		font-size: 12px;
+	}
+
+	.section-contents li{
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.section-contents li p{
+		text-align: center;
+	}
+
+	.icon-top,.icon-border{
+		border: none;
+	}
+
+	.section-notes p{
+		font-size: 11px;
+	}
+
+
+}
